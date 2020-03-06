@@ -97,15 +97,14 @@ public class ArraysLesson {
         System.out.println(newArr2[0][2]); // 3
         System.out.println(newArr2[1][1]); // 5
 
-
-
-
-
-
-
-
-
-
-
+        for (int i = 0; i < newArr2.length; i++) {
+//            newArr[0] - {1, 2, 3}
+//            newArr[1] - {4, 5}
+//            newArr[2] - {7}
+            for (int j = 0; j < newArr2[i].length; j++) {
+                newArr2[i][j] *= newArr2[i][j];
+            }
+        }
+        System.out.println(Arrays.deepToString(newArr2));
     }
 }
