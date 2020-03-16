@@ -1,8 +1,8 @@
 package lesson2;
 
-public class Conditions {
+/*public class Conditions {
     //    psvm
-    public static void main(String[] args) {
+   /* public static void main(String[] args) {
         // if else
         /*if (условие) {
             код выполнится, если условие true;
@@ -18,7 +18,7 @@ public class Conditions {
 //        15 - 30 => "Вторая четверть"
 //        31 - 45 => "Третья четверть"
 //        46 - 59 => "Четвертая четверть"
-        int minute = 34;
+  /*      int minute = 34;
         if (minute >= 0 && minute <= 14) {
             System.out.println("Первая четверть");
         } else if (minute >= 15 && minute <= 30) {
@@ -29,10 +29,10 @@ public class Conditions {
             System.out.println("Четвертая четверть");
         } else {
             System.out.println("Вне диапазона");
-        }
+        }*/
 
 //        switch () {}
-        int code = 222;
+   /*     int code = 222;
         // 111 / 222 / 333 -> "Малый приз"
         // 444 / 555  -> "Средний приз"
         // 777  -> "Крупный приз"
@@ -83,4 +83,4 @@ public class Conditions {
         };
         System.out.println(prize);
     }
-}
+}*/
